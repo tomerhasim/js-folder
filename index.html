@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+  <nav>
+    <ul>
+        <li class="brand"><img src="spotify.png" alt="spotify">Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="songlist">
+      <h1>HASIM PROJECT - SPOTIFY</h1>
+      <div class="songitemcontainer">
+        <div class="songitem">
+          <img src="song 1.jpg" alt="1">
+          <span class="songname">Let me Love You</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="songitemplay fa-duotone fa-1x fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="power.jpg" alt="1">
+          <span class="songname">Let me Love You</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="songitemplay  fa-duotone fa-1x fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="jaatmukabla.jpg" alt="1">
+          <span class="songname">Let me Love You</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="songitemplay fa-duotone fa-1x fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="davil.jpg" alt="1">
+          <span class="songname">Let me Love You</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="songitemplay fa-duotone fa-1x fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="cheques.jpg" alt="1">
+          <span class="songname">Let me Love You</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="songitemplay fa-duotone fa-1x fa-regular fa-circle-play"></i></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="myprogressbar"  min="0" value="0" max="100">
+    <div class="icon">
+      <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+      <i class="fa-duotone fa-2x fa-regular fa-circle-play" id="masterplay"></i>
+      <i class="fa-solid fa-2x fa-forward" id="next"></i>
+    </div>
+    <div class="songinfo">
+      <img src="gif song.gif" alt="" id="gif"><span id="mastersongname">salam-e-Ishq</span>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
